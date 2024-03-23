@@ -7,12 +7,12 @@ for(let i=0 ; i < user.results.length; i++ ) {
     let detailedContainer = document.createElement("div");
     detailedContainer.classList.add("card");
 
-    let genderTag = document.createElement("p")
-    let nameTag = document.createElement("p")
-    let emailTag = document.createElement("p")
-    let phoneTag = document.createElement("p")
-    let locationTag = document.createElement("p")
-    let UserImage = document.createElement("img")
+    let genderTag = document.createElement("p");
+    let nameTag = document.createElement("p");
+    let emailTag = document.createElement("p");
+    let phoneTag = document.createElement("p");
+    let locationTag = document.createElement("p");
+    let UserImage = document.createElement("img");
 
 
     genderTag.innerText = user.results[i].gender;
